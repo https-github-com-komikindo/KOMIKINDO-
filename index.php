@@ -37,7 +37,7 @@ while ($row = mysqli_fetch_assoc($result)) {
         <a href="#" class="logo"></i><span>KomikIndo</span></a>
         <ul class="navbar">
             <li><a href="#" class="active">Home</a></li>
-            <li><a href="#">About Us</a></li>
+            <li><a href="#aboutme">About Us</a></li>
             <li><a href="#product">Comic</a></li>
             <li><a href="login.php" class="dropbtn">Login</a></li>
             <li><a href="registrasi.php">Register</a></li>
@@ -90,10 +90,6 @@ while ($row = mysqli_fetch_assoc($result)) {
             <section id="aboutme">
                 <div class="image">
                     <img src="assets/fotokami2.jpg" id="geeks" class="newspaper">
-                    <div class="btn">
-                        <button onclick="zoomIn()">Zoom-In</button>
-                        <button onclick="zoomOut()">Zoom-Out</button>
-                    </div>
                 </div>
                 <div class="content">
                     <h2>tentang saya</h2>
@@ -106,15 +102,13 @@ while ($row = mysqli_fetch_assoc($result)) {
                         Social Media :
                     </p>
                     <ul class="icons">
-                        <li>
-                            <i class="fa-brands fa-instagram"></i>
+                        <li><a href="https://www.instagram.com/saidbkhri/?hl=id"><i
+                                    class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="https://github.com/https-github-com-komikindo/KOMIKINDO--1"><i
+                                    class="fa-brands fa-github"></i></a>
                         </li>
-                        <li>
-                            <i class="fa-brands fa-github"></i>
-                        </li>
-                        <li>
-                            <i class="fa-brands fa-twitter"></i>
-                        </li>
+                        <li><a href="https://www.youtube.com/channel/UC2i-YseT9mR9weZuzQgkJBQ"><i
+                                    class="fa-brands fa-youtube"></i></a></li>
                     </ul>
                 </div>
             </section>
